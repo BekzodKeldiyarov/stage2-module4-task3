@@ -8,10 +8,6 @@ import com.mjc.stage2.entity.TextComponentType;
 public class LexemeParser extends AbstractTextParser {
     private static final String LEXEME_REGEX = "\\s+";
 
-
-    // Write your code here!
-
-
     @Override
     public void parse(AbstractTextComponent abstractTextComponent, String string) {
         char[] arr = string.toCharArray();
